@@ -1,5 +1,5 @@
 package buscaminas;
 
-public class Juego {
+public class Tablero {
     
 }
