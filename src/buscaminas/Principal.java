@@ -25,24 +25,54 @@ public class Principal {
                     System.out.println("Introduce la fila");
                     int fila = Teclado.leerEntero("");
 
+                    if (fila > 6){
+                        System.out.println("Numero fuera de rango");
+                        break;
+                    }
+
                     System.out.println("Introduce la columna");
                     int columna = Teclado.leerEntero("");
+                   
+                    if (columna > 6){
+                        System.out.println("Numero fuera de rango");
+                        break;
+                    }
                     break;
 
                 case 2:
                     System.out.println("Introduce la fila");
                     fila = Teclado.leerEntero("");
 
+                     if (fila > 6){
+                        System.out.println("Numero fuera de rango");
+                        break;
+                    }
+
                     System.out.println("Introduce la columna");
                     columna = Teclado.leerEntero("");
+
+                     if (columna > 6){
+                        System.out.println("Numero fuera de rango");
+                        break;
+                    }
                     break;
 
                 case 3:
                     System.out.println("Introduce la fila");
                     fila = Teclado.leerEntero("");
 
+                     if (fila > 6){
+                        System.out.println("Numero fuera de rango");
+                        break;
+                    }
+
                     System.out.println("Introduce la columna");
                     columna = Teclado.leerEntero("");
+
+                     if (columna > 6){
+                        System.out.println("Numero fuera de rango");
+                        break;
+                    }
                     break;
             }
         } while (opcion == 1 || opcion == 2 || opcion == 3);
